@@ -13,6 +13,7 @@
   }
       #entry {
     width: 90%;
+	     margin: 33px 33px 33px 630px;
   }
        #button {
     width: 144px;
@@ -20,10 +21,14 @@
     color: white;
     background-color: blue;
     padding: 1em;
-    margin: 33px;
+    margin: 33px 33px 33px 630px;
     font-size: 1.5em;
     font-weight: 800;
   }
+       #output
+       {
+margin: 3px 3px 33px 630px;
+	      }
     </style>
   </head>
   <body>
@@ -36,7 +41,7 @@
     <h2 id="output" class="centered">What you typed</h2>
   </div>
   <script type="text/javascript">
-  document.getElementById("entry").addEventListener("click", function() {
+  document.getElementById("button").addEventListener("click", function() {
     var a = document.getElementById("entry").value;
     document.getElementById("output").innerHTML = a;
     alert("Jared McVey: "+a); 
@@ -44,3 +49,4 @@
     </script>
   </body>
 </html>
+
