@@ -1,0 +1,25 @@
+.centered {
+    text-align: center
+  }
+   #contain {
+    width: 250px;
+    margin: 35px;
+  }
+      #entry {
+    width: 90%;
+	     margin: 33px 33px 33px 630px;
+  }
+       #button {
+    width: 144px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 1em;
+    margin: 33px 33px 33px 630px;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+       #output
+       {
+margin: 3px 3px 33px 630px;
+	      }
