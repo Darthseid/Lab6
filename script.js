@@ -1,5 +1,6 @@
-document.getElementById("button").addEventListener("click", function() {
--    var a = document.getElementById("entry").value;
--    document.getElementById("output").innerHTML = a;
--    alert("Jared McVey: "+a); 
--  })
+function myFunction() {
+   document.getElementById("entrybutton").addEventListener("click", function() {
+			var txt = document.getElementById("entry").value;
+			document.getElementById("output").innerHTML = txt;
+			alert("Jared McVey: " + txt)})
+}
