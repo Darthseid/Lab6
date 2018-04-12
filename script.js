@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("output").innerHTML = txt;
 
     console.log("Jared McVey: " + txt);
+	alert("Jared McVey: " + txt);
 
   });
   
